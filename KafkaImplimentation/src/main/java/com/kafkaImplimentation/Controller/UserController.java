@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("kafka")
 public class UserController {
 	
-	public final String TOPIC="MES";
+	public static final String TOPIC="MES";
 	
 	
 	@Autowired
